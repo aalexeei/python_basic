@@ -1,3 +1,4 @@
+print("-"*10+"Exercise 4"+"-"*10)
 three_tab = "\t\t\t"
 line = "*" * 8
 line_lower = f'{"*"*9}\t'
@@ -14,6 +15,7 @@ text = f"""
 print(text.replace("*", input("If you want you can enter another symbol as '*' \nIf you don't enter another symbol please enter '*': ")))
 
 
+print("-"*10+"Exercise 5"+"-"*10)
 print("""
 Escape sequences
 \\a      Bell (alert)
