@@ -1,1 +1,3 @@
-# python_basic
+'''
+This repo for my IT courses
+''''
