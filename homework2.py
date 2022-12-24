@@ -15,6 +15,6 @@ if exercise == 2:
 if exercise == 3:
     print("*"*10,"ex3","*"*10)
     numbers = int(input())
-    print(int(f"{numbers % 10}{(numbers % 100) // 10}{numbers // 100}"))
+    print(f"{(numbers % 10)*100+((numbers //10) % 10)*10+numbers // 100}")
 if 1 < exercise > 3:
     print("No such answer! Please eneter (1-3)")
