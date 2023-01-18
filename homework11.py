@@ -1,6 +1,7 @@
 bad_words = ['ploxoe_clovo', 'matuk']
 separators = [".", '!', ',', '...', '?']
 
+
 def cenzor():
     with open('file.txt', 'r') as file:
         text = file.read()
